@@ -34,17 +34,17 @@
 }
 
 .photo img { 
-    width: 100%;
+    width: 800px;
 }
 
 .center {
 	margin-right: auto;
 	margin-left: auto;
-	width: 80%;
+	width: 90%;
 }
 
 .sideImage {
-	background-color: #0097A7;
+	background-color: #00BCD4;
 }
 
 .rightMargin {
@@ -69,7 +69,7 @@
 /* ID's */
 
 #HomeLink {
-	background-color: #00BCD4;
+	background-color: #0097A7;
 	color: #FFFFFF;
 	padding: 5px;
 }
@@ -164,13 +164,13 @@ article {
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 36px;
+	font-size: 72px;
 	height: auto;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -182,12 +182,12 @@ h1 {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 48px;
 }
 
 a { 
 	text-decoration: none; 
-	font-size: 36px;
+	font-size: 48px;
 }
 nav {
 	vertical-align: middle;
@@ -195,11 +195,13 @@ nav {
 }
 
 nav a {
-	background-color: #00BCD4;
+	background-color: #0097A7;
 	color: #FFFFFF;
 	padding-right: 10px;
 	padding-left: 10px;
 }
+
+
 /*
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }

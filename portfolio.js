@@ -9,6 +9,8 @@ $(document).ready(function($) {
 	var $short_h = ($h-160)*0.375;
 	var $tall_h = ($h-160)*0.625;
 
+	var $photo_w = $h*0.8
+
 	$("#big").css({"width": $thick_w,"height": ($h-105)})
 	$("#small").css({"width": $thin_w, "height": $tall_h})
 	$("#superSmall").css({"width": $thin_w, "height": $short_h})
@@ -16,7 +18,7 @@ $(document).ready(function($) {
 	$(".sideCaption").css({"width": $thin_w, "height": ($h/3)})
 
 
-	$(".photo").css({"width": $thin_w, "height": $thin_w*3/4, "margin-bottom": $h/8, "margin-top": $h/20})
+	$(".photo").css({"width": $photo_w, "height": $photo_w*5.5/8 , "margin-bottom": $h/8, "margin-top": $h/20})
 
 	$('article').hover(function() {
 		$(this).addClass('shadow');
