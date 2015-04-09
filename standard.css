@@ -43,6 +43,24 @@
 	width: 90%;
 }
 
+.bio_paragraph {
+	font-size: 48px;
+	background-color: #00BCD4;
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.bio_paragraph p {
+	font-size: 48px;
+}
+
 .sideImage {
 	background-color: #00BCD4;
 }
