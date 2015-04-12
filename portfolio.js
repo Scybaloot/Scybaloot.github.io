@@ -20,6 +20,7 @@ $(document).ready(function($) {
 
 	$(".sideImage").css({"width": $thick_w, "height": ($h/3)})
 	$(".sideCaption").css({"width": $thin_w, "height": ($h/3)})
+	$("#home_container").css({"width": $w, height: $h*.8})
 
 	
 

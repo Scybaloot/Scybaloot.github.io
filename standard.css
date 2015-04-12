@@ -6,6 +6,10 @@
 	color: #FFFFFF;
 }
 
+.title_margin {
+	margin:1%;
+}
+
 .shadow {
 	background-color: #000000;
 }
@@ -23,7 +27,6 @@
 }
 
 .photo {
-	margin-top: 10%;
 	margin-bottom: 10%;
 	background-color: #000000;
 	z-index: 0;
@@ -43,7 +46,7 @@
 .center {
 	margin-right: auto;
 	margin-left: auto;
-	width: 90%;
+	
 }
 
 .bio_paragraph {
@@ -87,6 +90,30 @@
 
 .lightboxTrigger {}
 
+.right_container {
+	height:100%;
+	width:30%;
+	display: inline-block;
+	margin-right:1%;
+	margin-top: 1%; 
+	margin-bottom: 1%;
+	margin-left: -1%;
+	padding-bottom: 3%;
+}
+
+.vert_center {
+	height:40%;
+}
+
+.vert_center_small {
+	height:30%;
+}
+
+.vert_center_very_small {
+	height:8%;
+}
+
+
 /* ID's */
 
 #HomeLink {
@@ -110,19 +137,18 @@
 	width: 60.5%;
 	height: 100%;
 	display: inline-block;
+	background-color: #201E27;
 }
 
 #small {
-	background-color: #b2b2b2;
-	margin: 1%;
-	width: 35.5%;
-	height: 60.5%;
+	background-color: #201E27;
+	margin-top: 3%;
+	height: 56%;
 }
 
 #superSmall{
-	background-color: #b2b2b2;
-	margin: 1%;
-	width:35.5%;
+	background-color: #201E27;
+	
 	height: 35.5%;
 
 }
@@ -194,7 +220,6 @@ article {
 	font-family: 'Roboto', sans-serif;
 	padding: 20px;
 	border: 0px;
-	background-color: #000000;
 	color: #FFFFFF;
 	text-align: center;
 }
