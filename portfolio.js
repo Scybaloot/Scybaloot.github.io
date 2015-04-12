@@ -11,14 +11,20 @@ $(document).ready(function($) {
 
 	var $photo_w = $h*0.8
 
+	/*
 	$("#big").css({"width": $thick_w,"height": ($h-105)})
 	$("#small").css({"width": $thin_w, "height": $tall_h})
 	$("#superSmall").css({"width": $thin_w, "height": $short_h})
+
+	*/
+
 	$(".sideImage").css({"width": $thick_w, "height": ($h/3)})
 	$(".sideCaption").css({"width": $thin_w, "height": ($h/3)})
 
+	
 
-	$(".photo").css({"width": $photo_w, "margin-bottom": $h/8, "margin-top": $h/20})
+	/*$(".photo").css({"width": $photo_w, "margin-bottom": $h/8, "margin-top": $h/20})*/
+
 	$(".bio_paragraph").css({"width": $photo_w*1.1, "margin-bottom": $h/8, "margin-top": $h/20})
 
 	$('article').hover(function() {

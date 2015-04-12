@@ -23,18 +23,21 @@
 }
 
 .photo {
-	padding: 10px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	background-color: #000000;
 	z-index: 0;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	overflow: hidden;
+	width: 70%;
+	padding:3%;
 	
 }
 
 .photo img { 
-    width: 800px;
+    
 }
 
 .center {
@@ -66,7 +69,7 @@
 }
 
 .rightMargin {
-	margin-right: 10px;
+	margin-right: 1%;
 }
 
 .sideCaption {
@@ -90,6 +93,7 @@
 	background-color: #0097A7;
 	color: #FFFFFF;
 	padding: 5px;
+	margin-bottom: 1%;
 }
 
 #leftalign {
@@ -102,16 +106,30 @@
 
 #big {
 	vertical-align: top;
-	margin-right: 5px;
+	margin: 1%;
+	width: 60.5%;
+	height: 100%;
+	display: inline-block;
 }
 
 #small {
 	background-color: #b2b2b2;
-	margin-top: 15px;
+	margin: 1%;
+	width: 35.5%;
+	height: 60.5%;
 }
 
 #superSmall{
 	background-color: #b2b2b2;
+	margin: 1%;
+	width:35.5%;
+	height: 35.5%;
+
+}
+
+#home_container {
+	width: 100%;
+	height: 100%;
 }
 
 /* lightboxing stuff */
