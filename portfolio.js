@@ -18,7 +18,7 @@ $(document).ready(function($) {
 	$(".sideCaption").css({"width": $thin_w, "height": ($h/3)})
 
 
-	$(".photo").css({"width": $photo_w, "height": $photo_w*5.5/8 , "margin-bottom": $h/8, "margin-top": $h/20})
+	$(".photo").css({"width": $photo_w, "margin-bottom": $h/8, "margin-top": $h/20})
 	$(".bio_paragraph").css({"width": $photo_w*1.1, "margin-bottom": $h/8, "margin-top": $h/20})
 
 	$('article').hover(function() {
