@@ -28,7 +28,7 @@
 
 .photo {
 	margin-bottom: 10%;
-	background-color: #000000;
+	background-color: #201E27;
 	z-index: 0;
 	margin-right: auto;
 	margin-left: auto;
@@ -39,13 +39,20 @@
 	
 }
 
+.image_v_center {
+	height: 200px;
+}
+
+.horizontal_padding {
+	height: 20px;
+}
+
 .photo_two{
-	margin-bottom: 10%;
 	background-color: #000000;
 	z-index: 0;
 	display: block;
 	overflow: hidden;
-	width: 50%;
+	width: 500px;
 	padding:2%;
 }
 
@@ -74,7 +81,7 @@
 
 .bio_paragraph {
 	font-size: 48px;
-	background-color: #00BCD4;
+	background-color: #201E27;
 	
 	margin-right: auto;
 	margin-left: auto;
@@ -91,7 +98,7 @@
 }
 
 .sideImage {
-	background-color: #00BCD4;
+	background-color: #201E27;
 }
 
 .rightMargin {
@@ -243,6 +250,7 @@ article {
 	padding: 20px;
 	border: 0px;
 	color: #FFFFFF;
+	background-color: #201E27;
 	text-align: center;
 }
 
