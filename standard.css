@@ -35,9 +35,32 @@
 	display: block;
 	overflow: hidden;
 	width: 70%;
-	padding:3%;
+	padding:2%;
 	
 }
+
+.photo_two{
+	margin-bottom: 10%;
+	background-color: #000000;
+	z-index: 0;
+	display: block;
+	overflow: hidden;
+	width: 50%;
+	padding:2%;
+}
+
+.photo_tall{
+	margin-bottom: 10%;
+	background-color: #000000;
+	z-index: 0;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	overflow: hidden;
+	width: 30%;
+	padding:2%;
+}
+
 
 .photo img { 
     
@@ -148,7 +171,7 @@
 
 #superSmall{
 	background-color: #201E27;
-	height: 37.5%;
+	height: 35.5%;
 
 }
 
