@@ -82,19 +82,31 @@
 .bio_paragraph {
 	font-size: 48px;
 	background-color: #201E27;
+	color: #D3D3D3;
 	
 	margin-right: auto;
+	margin-top: 2%;
+	width:65%;
 	margin-left: auto;
 	
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	
+}
+.bio_paragraph h3 {
+	margin-left:1%;
+	margin-top: 1.5%;
+	margin-bottom: -1%;
 }
 
 .bio_paragraph p {
 	font-size: 48px;
+padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .sideImage {
