@@ -3,8 +3,8 @@ $(document).ready(function($) {
 	var $h = window.innerHeight;
 
 
-	var $thick_w = ($w-125)*0.625;
-	var $thin_w = ($w-125)*0.375;
+	var $thick_w = ($w-125)*0.600;
+	var $thin_w = ($w-125)*0.370;
 
 	var $short_h = ($h-160)*0.375;
 	var $tall_h = ($h-160)*0.625;
@@ -16,10 +16,12 @@ $(document).ready(function($) {
 	$("#small").css({"width": $thin_w, "height": $tall_h})
 	$("#superSmall").css({"width": $thin_w, "height": $short_h})
 
-	*/
 
 	$(".sideImage").css({"width": $thick_w, "height": ($h/3)})
 	$(".sideCaption").css({"width": $thin_w, "height": ($h/3)})
+
+	*/
+
 	$("#home_container").css({"width": $w, height: $h*.8})
 
 	

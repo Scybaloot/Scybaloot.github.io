@@ -39,8 +39,16 @@
 	
 }
 
+.caption {
+	background-color: #000000;
+	vertical-align: top;
+	color: #FFFFFF;
+	height: 100px;
+}
+
 .image_v_center {
 	height: 200px;
+	width:500px;
 }
 
 .horizontal_padding {
@@ -111,6 +119,10 @@ padding-left: 2%;
 
 .sideImage {
 	background-color: #201E27;
+	padding: 2%;
+	margin-top: 0.5%;
+	width:60%;
+	height:400px;
 }
 
 .rightMargin {
@@ -122,6 +134,11 @@ padding-left: 2%;
 	font-size: 18px;
 	background-color: #FFFFFF;
 	color: #000000;
+	padding-top: 2.5%;
+	margin-top: 0.5%;
+	margin-right: 0.5%;
+	width: 30%;
+	height: 400px;
 }
 
 .rightNav {
