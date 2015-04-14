@@ -30,13 +30,30 @@
 	margin-bottom: 10%;
 	background-color: #201E27;
 	z-index: 0;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 30%;
+	margin-left: 30%;
 	display: block;
 	overflow: hidden;
-	width: 70%;
+	width: 100%;
 	padding:2%;
 	
+}
+
+.writeup {
+	font-size: 24px;
+	background-color: #FFFFFF;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding:5%;
+}
+
+.writeup h3 {
+	font-size: 28px;
+}
+
+.writeup p {
+	font-size: 24px;
 }
 
 .caption {
@@ -46,8 +63,8 @@
 	color: #000000;
 	padding-top: 2.5%;
 	margin-top: 0.5%;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 30%;
+	margin-left: 30%;
 	width: 100%;
 	height: 500px;
 }
@@ -66,8 +83,10 @@
 	z-index: 0;
 	display: block;
 	overflow: hidden;
-	width: 500px;
-	padding:2%;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	padding:1%;
 }
 
 .photo_tall{
