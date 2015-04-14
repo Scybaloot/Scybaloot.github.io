@@ -24,7 +24,7 @@ $(document).ready(function($) {
 
 	$("#home_container").css({"width": $w, height: $h*.8})
 
-	
+	if ($w < 1100px)
 
 	/*$(".photo").css({"width": $photo_w, "margin-bottom": $h/8, "margin-top": $h/20})*/
 
