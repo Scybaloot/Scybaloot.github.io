@@ -27,16 +27,18 @@
 }
 
 .photo {
-	margin-bottom: 10%;
 	background-color: #201E27;
 	z-index: 0;
 	margin-right: 30%;
 	margin-left: 30%;
 	display: block;
 	overflow: hidden;
-	width: 100%;
-	padding:2%;
-	
+	width: 80%;
+	padding:1%;
+}
+
+.vertical_margin {
+	margin-bottom: 10%;
 }
 
 .writeup {
@@ -83,7 +85,7 @@
 	z-index: 0;
 	display: block;
 	overflow: hidden;
-	width: 50%;
+	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
 	padding:1%;

@@ -24,7 +24,7 @@ $(document).ready(function($) {
 
 	$("#home_container").css({"width": $w, height: $h*.8})
 
-	
+	$(".vertical_space").css({"width": $w, "height": $h*.2 })
 
 	/*$(".photo").css({"width": $photo_w, "margin-bottom": $h/8, "margin-top": $h/20})*/
 
