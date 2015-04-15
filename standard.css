@@ -33,8 +33,24 @@
 	margin-left: 30%;
 	display: block;
 	overflow: hidden;
-	width: 80%;
+	width: 65%;
 	padding:1%;
+}
+
+.photo_title {
+		font-size: 48px;
+	background-color: #201E27;
+	color: #D3D3D3;
+	
+	margin-right: auto;
+	margin-top: 2%;
+	width:65%;
+	margin-left: auto;
+	
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .vertical_margin {
