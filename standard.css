@@ -15,7 +15,7 @@
 }
 
 .regular {
-	background-color: #b2b2b2;
+	background-color: #b2b2b2; 
 }
 
 .inline {
@@ -257,7 +257,6 @@ padding-left: 2%;
 	background-color: #0097A7;
 	color: #FFFFFF;
 	padding: 5px;
-	margin-bottom: 1%;
 }
 
 #leftalign {
@@ -279,8 +278,7 @@ padding-left: 2%;
 
 #small {
 	background-color: #201E27;
-	margin-top: 3%;
-	height: 56%;
+	height: 100%;
 }
 
 #superSmall{
@@ -291,7 +289,7 @@ padding-left: 2%;
 
 #home_container {
 	width: 100%;
-	height: 100%;
+	height: 80%;
 }
 
 /* lightboxing stuff */
