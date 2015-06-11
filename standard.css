@@ -1,6 +1,24 @@
 
 /* classes */
 
+.container { 
+    width: 418px; 
+    height: 240px; 
+    overflow: hidden; 
+}
+.container img { 
+    width: 100%;
+}
+
+
+.UX_preview {
+	width: 30%;
+	height: 80%;
+	margin: 1%;
+	overflow: hidden;
+}
+
+
 .buttonBackground {
 	background-color: #000000;
 	color: #FFFFFF;
@@ -20,6 +38,7 @@
 
 .inline {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .previewSpacing {
@@ -106,7 +125,7 @@
 	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
-	padding:1%;
+	padding:0.5%;
 	margin-top: 2%;
 	margin-bottom: 2%; 
 }
@@ -229,21 +248,20 @@ padding-left: 2%;
 
 .right_container {
 	height:100%;
-	width:30%;
+	width:20%;
 	display: inline-block;
+	vertical-align: top;
 	margin-right:1%;
 	margin-top: 1%; 
 	margin-bottom: 1%;
-	margin-left: -1%;
-	
 }
 
 .vert_center {
-	height:40%;
+	height:5%;
 }
 
 .vert_center_small {
-	height:30%;
+	margin:0% 10%;
 }
 
 .vert_center_very_small {
@@ -269,16 +287,21 @@ padding-left: 2%;
 
 #big {
 	vertical-align: top;
-	margin: 1%;
-	width: 60.5%;
-	height: 100%;
+	width: 95%;
+	margin-left: 1%;
+	margin-bottom: 2%;
+	height: 60%;
 	display: inline-block;
 	background-color: #201E27;
 }
 
 #small {
+	margin: 0% 0% 0% 0%;
 	background-color: #201E27;
-	height: 100%;
+	height: 60%;
+	width:95%;
+	margin-left: 1%;
+	vertical-align: top;
 }
 
 #superSmall{
@@ -352,7 +375,7 @@ body {
 
 article {
 	font-family: 'Roboto', sans-serif;
-	padding: 30px;
+	padding: 1%;
 	border: 0px;
 	color: #FFFFFF;
 	background-color: #201E27;
@@ -381,8 +404,11 @@ h1 {
 
 }
 
-h2 {
+
+article h2 {
 	font-size: 48px;
+	margin: 1% 0%;
+	color: #FFFFFF;
 }
 
 a { 
