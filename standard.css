@@ -18,6 +18,11 @@
 	overflow: hidden;
 }
 
+.photo_preview {
+	height:70%;
+	overflow: hidden;
+}
+
 
 .buttonBackground {
 	background-color: #000000;
@@ -289,9 +294,8 @@ padding-left: 2%;
 	vertical-align: top;
 	width: 95%;
 	margin-left: 1%;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 	height: 60%;
-	display: inline-block;
 	background-color: #201E27;
 }
 
@@ -301,7 +305,6 @@ padding-left: 2%;
 	height: 60%;
 	width:95%;
 	margin-left: 1%;
-	vertical-align: top;
 }
 
 #superSmall{

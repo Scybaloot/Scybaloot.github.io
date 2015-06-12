@@ -11,6 +11,10 @@ $(document).ready(function($) {
 
 	var $photo_w = $h*0.8
 
+	var $home_nav_h = ($h-90)*.45;
+
+	$(".UX_preview").css({"height": $home_nav_h})
+	$(".photo_preview").css({"height": $home_nav_h*.85})
 	/*
 	$("#big").css({"width": $thick_w,"height": ($h-105)})
 	$("#small").css({"width": $thin_w, "height": $tall_h})
