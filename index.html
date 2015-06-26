@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <head>
-
+ <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title> Colby Sato, Designer </title>
+
 	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script> 
 	<script src="portfolio.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link type="text/css" href="standard.css" rel="stylesheet" id="CSStag"> 
+	
+	<link rel="stylesheet" href="foundation-5/css/foundation.css" />
+	<link rel="stylesheet" href="foundation-5/css/foundation.min.css" />
+	<link rel="stylesheet" href="foundation-5/css/normalize.css"/>
+    <script src="foundation-5/js/vendor/modernizr.js"></script>
+
+    <link type="text/css" href="standard.css" rel="stylesheet" id="CSStag"> 
 </head>
 
 <body>
@@ -14,7 +22,7 @@
 	<div class="title_margin">
 		<div id="HomeLink" class="inline">
 			<a href="index.html">
-				<h1> Colby Sato, Designer </h1>
+				<h2> Colby Sato, Designer </h2>
 			</a>
 		</div>
 
@@ -33,32 +41,39 @@
 
 	<div id="home_container"> 
 		
-			<article  id="big" >
-				
-				<h2 style = "padding:0.75%" >UX Design</h2>
-				
-				<a href = "social_cooking.html">
-					<div class = "inline UX_preview"> 
-						<img style = "height:80%" img src="images/abby_ux_cut.jpg" alt="Abby's Persona" >
-					</div>
-				</a>
+			<!-- <article  id="big" > -->
+				<div class = "row">
+					<h2 style = "padding:0.75%" >UX Design</h2>
+					
+					<a href = "social_cooking.html">
+						<div class = "large-4 columns">
+							<div class="margin_border">
+								<img img src="	images/abby_ux_cut.jpg" alt="Abby's Persona" >
+							</div>						
+						</div>
+					</a>
 
-				<a href = "sustainable_design.html">
-					<div class = "inline UX_preview"> 
-						<img style = "height:80%;background-color:#FFFFFF;text-align:center" img src="images/grant's meal copy.png" alt="Pie Chart">
-					</div>
-				</a>
+					<a href = "sustainable_design.html">
+						<div class = "large-4 columns">
+							<div class="margin_border">
+								<img img src="images/grant's meal copy.png" alt="Pie Chart">
+							</div>
+						</div>
+					</a>
 
-				<a href = "sharelatex.html">
-					<div class = "inline UX_preview"> 
-						<img style = "background-color:#FFFFFF;height:80%" img src="sharelatex/Slice 6.png" alt="whiteboard sketch of procedures" >
-					</div>
-				</a>
+					<a href = "sharelatex.html">
+						<div class = "large-4 columns"> 
+							<div class="margin_border">
+								<img img src="sharelatex/Slice 6.png" alt="whiteboard sketch of procedures" >
+							</div>
+						</div>
+					</a>
+				</div>
 
 			
 								
 
-			</article>
+			<!-- </article> -->
 		
 
 
@@ -75,12 +90,18 @@
 -->
 
 			<a href="visual_art.html" >
-				<article id="small">
-					<h2 style = "padding:0.75%">Visual Art</h2>
-					<div class = "photo_preview">
-						<img style = "height:100%" src="images/olin_fall.jpg" alt="Abby Persona" >
+				<!-- <article id="small"> -->
+				<div class = "row">
+					<h2 style = "padding:0.75%">Visual Art
+					</h2>
+
+					<div class = "large-4 columns">
+						<div class="margin_border">
+							<img src="images/olin_fall.jpg" alt="Abby Persona" >
+						</div>
 					</div>
-				</article>
+				</div>
+				<!-- </article> -->
 			</a>
 	</div>
 	
