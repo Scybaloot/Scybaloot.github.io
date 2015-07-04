@@ -60,6 +60,11 @@ body {
   height: 500px;
 }
 
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
