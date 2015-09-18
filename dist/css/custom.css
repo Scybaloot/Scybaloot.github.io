@@ -2,18 +2,18 @@
 
 .navbar {
 	background-color: #B2EBF2 ;
-	color: #FFFFFF;
+	color: #000000;
 	border-width: 0px;
 }
 
 .navbar-inverse {
 	background-color: #00BCD4;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .navbar-fixed-top {
 	background-color: #B2EBF2 ;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .btn {
@@ -21,9 +21,21 @@
     border-width: 0px;
 }
 
+.active {
+	background-color: #B2EBF2;
+}
+
 .navbar-toggle {
 	background-color: #B2EBF2;
-	color: #FFFFFF;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000000;
 }
 
 .btn-default {
@@ -38,7 +50,16 @@ h1 {
     line-height: 65px;
     color: #212121;
 }
- 
+
+
+h2 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+}
+
+h3 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+}
+
 p {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
