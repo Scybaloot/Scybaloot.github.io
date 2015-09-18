@@ -1,0 +1,49 @@
+/* custom.css */
+
+.navbar {
+	background-color: #B2EBF2 ;
+	color: #FFFFFF;
+	border-width: 0px;
+}
+
+.navbar-inverse {
+	background-color: #00BCD4;
+	color: #FFFFFF;
+}
+
+.navbar-fixed-top {
+	background-color: #B2EBF2 ;
+	color: #FFFFFF;
+}
+
+.btn {
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+.navbar-toggle {
+	background-color: #B2EBF2;
+	color: #FFFFFF;
+}
+
+.btn-default {
+	background-color: #B07D8B;
+	color: #FFFFFF;
+
+}
+
+h1 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-size: 49px;
+    line-height: 65px;
+    color: #212121;
+}
+ 
+p {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+#00BCD4
