@@ -119,11 +119,10 @@
 	display: block;
 	overflow: hidden;
 	width: 40%;
-	padding-right: auto;
-	padding-left: auto;
-	padding:0.5%;
-	padding-top: 2%;
-	padding-bottom: 2%; 
+	margin-right-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+	margin-bottom: 2%; 
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
