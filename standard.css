@@ -115,16 +115,16 @@
 }
 
 .photo_two{
-	background-color: #000000;
 	z-index: 0;
 	display: block;
 	overflow: hidden;
 	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
+	padding-right: auto;
+	padding-left: auto;
 	padding:0.5%;
-	margin-top: 2%;
-	margin-bottom: 2%; 
+	padding-top: 2%;
+	padding-bottom: 2%; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .photo_tall{
