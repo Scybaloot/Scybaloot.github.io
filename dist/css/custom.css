@@ -24,6 +24,7 @@
 
 }
 
+
 .image_button {
 	box-shadow: 2px 3px 5px 0 #BBBBBB;
 
@@ -88,10 +89,21 @@ h3 {
     font-family: 'Droid Serif', Georgia, Times, serif;
 }
 
+h4 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
 p {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 25px;
 }
 
+
+body li {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+
+}
 
