@@ -1,20 +1,15 @@
 /* custom.css */
 
 .navbar {
-	background-color: #334584 0.5;
-	color: #000000;
+	background-color: #202255;
+	color: #D3CDED;
 	border-width: 0px;
 	box-shadow: 0px 2px 3px 0 #BBBBBB;
 }
 
-.navbar-inverse {
-	background-color: #334584 0.5;
-	color: #000000;
-}
-
 .navbar-fixed-top {
-	background-color: rgba(178,235,242,0.9);
-	color: #000000;
+	background-color: #404040;
+	color: #D3CDED;
 }
 
 .btn {
@@ -37,26 +32,34 @@
 
 .navbar-toggle {
 	background-color: #B2EBF2;
-	color: #000000;
+	color: #D3CDED;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000;
+    color: #e6e6e6;
 }
 
 .navbar .nav > li > a:hover {
-    float: #000000;
-    color: #002E36;
-    background-color: #5FC8D6;
+    float: #D3CDED;
+    /* color: #002E36;
+    */
+    color: #01B5DD;
+    background-color: #404040;
 }
 
 .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand > a:hover{
     color: #000000;
 }
 
 .btn-default {
-	background-color: #B07D8B;
-	color: #FFFFFF;
+	/* background-color: #B07D8B; 
+	*/
+	background-color: #B0DB64;
+	color: #404040;
 
 }
 
