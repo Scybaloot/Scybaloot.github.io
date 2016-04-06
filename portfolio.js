@@ -13,6 +13,14 @@ $(document).ready(function($) {
 
 	var $home_nav_h = ($h-90)*.45;
 
+	function adjust_body_offset() {
+    $('body').css('padding-top', $('.navbar').outerHeight(true) + 'px' );
+}
+
+$(window).resize(adjust_body_offset);
+
+$(document).ready(adjust_body_offset);
+
 	$(".UX_preview").css({"height": $home_nav_h})
 	$(".photo_preview").css({"height": $home_nav_h*.85})
 	/*
