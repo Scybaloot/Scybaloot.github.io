@@ -71,6 +71,9 @@
 	height: 100%;
 }
 
+.featurette {
+    padding-top: 60px;
+}
 
 /*.repeat_image {
 	background-image: url("../../images/geometry2.png");
