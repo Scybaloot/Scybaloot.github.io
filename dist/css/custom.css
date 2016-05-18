@@ -30,6 +30,11 @@
 	background-color: #B2EBF2;
 }
 
+.dark_navbar {
+    background-color: #404040;
+    color: #D3CDED;
+}
+
 .navbar-toggle {
 	background-color: #404040;
 	color: #D3CDED;
