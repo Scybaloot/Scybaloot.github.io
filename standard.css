@@ -1,6 +1,14 @@
 
 /* classes */
 
+.top-margin {
+	margin-top: 6%;
+}
+
+.bottom-margin {
+	margin-bottom: 4%;
+}
+
 .margin_border {
 	margin: .5rem;
 	border-style: solid;
