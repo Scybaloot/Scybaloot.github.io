@@ -1,12 +1,35 @@
 
 /* classes */
 
+.current-page {
+	color: #337AB7;
+}
+
+.bio {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.4;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
 .top-margin {
 	margin-top: 6%;
 }
 
+.short-top-margin {
+	margin-top: 4%;
+}
+
 .bottom-margin {
 	margin-bottom: 4%;
+}
+
+.short-bottom-margin {
+	margin-bottom: 4%;
+}
+
+.v-short-bottom-margin {
+	margin-bottom: 1%;
 }
 
 .margin_border {
@@ -251,6 +274,7 @@ padding-left: 2%;
 	width: 30%;
 	height: 500px;
 }
+
 
 .rightNav {
 	vertical-align: top;
