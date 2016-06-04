@@ -74,8 +74,13 @@
 }
 
 .case_studies_link {
-	color:#5a5a5a;
+	color:#000000;
 }
+
+.subdued {
+    color:#5a5a5a;
+}
+
 
 .professional_link {
 	height: 100%;
