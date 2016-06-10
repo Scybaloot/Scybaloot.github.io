@@ -1,4 +1,7 @@
 /* custom.css */
+    <script src="https://use.typekit.net/aax0jcg.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 
 .navbar {
 	background-color: #202255;
@@ -96,28 +99,31 @@
 }*/
 
 h1 {
-    font-family: "retiro-std-36pt",sans-serif    font-size: 49px;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 62px;
     line-height: 65px;
     color: #212121;
 }
 
 
 h2 {
-    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-family: "jaf-bernina-sans", sans-serif;
+    font-style: light;
+    font-size: 36px;
 }
 
 h3 {
-    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-family: "jaf-bernina-sans", sans-serif;
 }
 
 h4 {
-    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-family: "jaf-bernina-sans", sans-serif;
     font-weight: bolder;
     line-height: 25px;
 }
 
 p {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: "jaf-bernina-sans", sans-serif;
     font-size: 14px;
     line-height: 25px;
 }
