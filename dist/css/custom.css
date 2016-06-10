@@ -96,8 +96,7 @@
 }*/
 
 h1 {
-    font-family: 'Droid Serif', Georgia, Times, serif;
-    font-size: 49px;
+    font-family: "retiro-std-36pt",sans-serif    font-size: 49px;
     line-height: 65px;
     color: #212121;
 }
