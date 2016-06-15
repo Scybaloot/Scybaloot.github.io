@@ -382,14 +382,23 @@ padding-left: 2%;
 }
 
 #experience-header {
-	margin: 80px 2%;
+	margin: 25px 2%;
 }
 
 #collaborate {}
 
-/* Basic HTML Tags */
+@media only screen and (min-width: 600px) {
+
+	#experience-header {
+		margin: 110px 2%;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
 
 
+}
 
 
 /*

@@ -103,7 +103,7 @@ h1 {
         */
   font-family: "source-sans-pro",sans-serif;
 
-    font-size: 48px;
+    font-size: 36px;
     line-height: 65px;
     font-weight: 300;
     color: #212121;
@@ -151,4 +151,12 @@ body li {
 footer {
     margin: 5%;
 }
+
+@media only screen and (min-width: 600px) {
+
+    h1 {
+        font-size: 48px;
+    }
+}
+
 
