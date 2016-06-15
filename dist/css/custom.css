@@ -99,9 +99,13 @@
 }*/
 
 h1 {
-    font-family: "kings-caslon-display",sans-serif;
-    font-size: 62px;
+        /*font-family: "jaf-bernina-sans", sans-serif;
+        */
+  font-family: "source-sans-pro",sans-serif;
+
+    font-size: 48px;
     line-height: 65px;
+    font-weight: 300;
     color: #212121;
 }
 
@@ -123,7 +127,8 @@ h4 {
 }
 
 p {
-    font-family: "jaf-bernina-sans", sans-serif;
+    font-family: "jaf-bernina-sans", sans-serif light;
+    font-weight: 150;
     font-size: 14px;
     line-height: 25px;
 }
@@ -141,5 +146,9 @@ nav ul li{
 body li {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 
+}
+
+footer {
+    margin: 5%;
 }
 
