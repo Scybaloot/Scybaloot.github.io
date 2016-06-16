@@ -6,7 +6,6 @@
 }
 
 .about-site {
-	font-style: italic;
 	font-weight: 150;
 	color: #AAAAAA;
 	font-size: 16px;
@@ -402,7 +401,6 @@ padding-left: 2%;
 		font-weight: 300;
 	}
 	.about-site {
-		font-style: italic;
 		font-weight: 150;
 		color: #AAAAAA;
 		font-size: 24px;
