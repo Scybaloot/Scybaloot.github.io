@@ -286,7 +286,7 @@ padding-left: 2%;
 .rightNav {
 	vertical-align: top;
 	/*float: right; */
-	height: 60px; /*why can't I set the height of this class? */
+	height: 90px; /*why can't I set the height of this class? */
 }
 
 .lightboxTrigger {}
