@@ -161,6 +161,10 @@ footer {
     h1 {
         font-size: 48px;
     }
+
+    body {
+        margin-top: 20px;
+    }
 }
 
 
