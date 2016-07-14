@@ -2,6 +2,62 @@
     <script src="https://use.typekit.net/aax0jcg.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+/* ----------------------------  end image tiles --------- */
+
+
+.wrapper {
+    position: relative;
+    padding: 0;
+    width:100px;
+    display:block;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    color:#FFFFFF;
+    /* make text visible on mobile, invisible on desktop*/
+    width: 100px;
+    height: 100px;
+    line-height:100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+
+}
+.text:hover {
+    opacity:1;
+}
+}
+
+img {
+    z-index:1;
+}
+
+.case-study {
+    margin: 20px;
+}
+
+.case-study h3 {
+    margin:0;
+    position:absolute;
+    bottom:40;
+    left:20;
+    right:20;
+}
+.case-study p {
+    margin:0;
+    position:absolute;
+    bottom:10;
+    left:10;
+    right:10;
+}
+/* ----------------------------  end image tiles --------- */
 
 .project-cards {
     background-color: 
@@ -85,7 +141,7 @@
 }
 
 .subdued {
-    color:#5a5a5a;
+    color:#eeeeee;
 }
 
 
@@ -165,6 +221,72 @@ footer {
     body {
         margin-top: 40px;
     }
+
+    .wrapper {
+        position: relative;
+        padding: 0;
+        width:300px;
+        display:block;
+
+
+    }
+
+    .text {
+        position: absolute;
+        bottom:0;
+        color:#FFFFFF;
+        
+        width: 300px;
+        height: 300px;
+        line-height:100px;
+        text-align: center;
+        z-index: 10;
+        /*opacity: 0;*/
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .text:hover {
+        opacity:1;
+    }
+
+    img {
+        z-index:1;
+    }
+
+    .text-box {
+        background-color:rgba(0,0,0,0.8);
+        width: 300px;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .case-study {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .case-study h3 {
+        margin:0;
+        position:absolute;
+        bottom:40;
+        left:20;
+        right:20;
+    }
+
+    .case-study p {
+        margin:0;
+        position:absolute;
+        bottom:10;
+        left:10;
+        right:10;
+    }
+        
+
 }
 
 
