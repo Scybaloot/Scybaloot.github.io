@@ -94,7 +94,7 @@ img {
 
 
 .image_button {
-	box-shadow: 2px 3px 5px 0 #BBBBBB;
+	box-shadow: 2px 3px 5px 3px #BBBBBB;
     width:300px;
     height:300px;
 
@@ -292,13 +292,13 @@ footer {
     }
 
     .case-study {
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 20px;
         
     }
     .case-study h3 {
         position: absolute;
-        bottom:310;
+        bottom:320;
         margin:0;
         position:absolute;
         margin-left: auto;
