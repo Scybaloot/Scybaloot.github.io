@@ -8,13 +8,13 @@
 .wrapper {
     position: relative;
     padding: 0;
-    width:100px;
-    display:block;
+/*    width:100px;
+*/    display:block;
 }
 
 .text {
     position: absolute;
-    bottom: 0;
+    bottom:0;
     color:#FFFFFF;
     /* make text visible on mobile, invisible on desktop*/
     width: 100px;
@@ -23,12 +23,14 @@
     text-align: center;
     z-index: 10;
     opacity: 0;
+    box-shadow: 10px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-
-
+    float:none;
+    margin: 0 auto;
+    
 }
 .text:hover {
     opacity:1;
@@ -40,22 +42,30 @@ img {
 }
 
 .case-study {
-    margin: 20px;
+    
+    display: inline;
+
 }
 
 .case-study h3 {
     margin:0;
+    opacity:0;
     position:absolute;
-    bottom:40;
-    left:20;
-    right:20;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom:160;
+
+    /*left:20;
+    right:20;*/
 }
 .case-study p {
     margin:0;
     position:absolute;
-    bottom:10;
-    left:10;
-    right:10;
+    
+}
+
+.black-text {
+    color:black;
 }
 /* ----------------------------  end image tiles --------- */
 
@@ -85,6 +95,8 @@ img {
 
 .image_button {
 	box-shadow: 2px 3px 5px 0 #BBBBBB;
+    width:300px;
+    height:300px;
 
 }
 
@@ -210,6 +222,7 @@ body li {
 
 footer {
     margin: 5%;
+    margin-top: 30px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -224,20 +237,22 @@ footer {
 
     .wrapper {
         position: relative;
-        padding: 0;
-        width:300px;
-        display:block;
-
-
+/*        width:250px;
+*/        display:block;
     }
 
     .text {
         position: absolute;
         bottom:0;
+        display: block;
         color:#FFFFFF;
-        
-        width: 300px;
-        height: 300px;
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+        right:0;
+        width: 350px;
+        height: 350px;
         line-height:100px;
         text-align: center;
         z-index: 10;
@@ -258,35 +273,57 @@ footer {
 
     .text-box {
         background-color:rgba(0,0,0,0.8);
-        width: 300px;
+        width: 350px;
         height: 80px;
         position: absolute;
-        bottom: 0;
+        bottom: -25;
+    }
+    .case-study-header {
+
+    }
+
+    .case-studies-row {
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        display:inline-block;
+        width:1200px;
     }
 
     .case-study {
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-right: 40px;
-        margin-left: 40px;
+        
     }
     .case-study h3 {
+        position: absolute;
+        bottom:310;
         margin:0;
         position:absolute;
-        bottom:40;
-        left:20;
-        right:20;
+        margin-left: auto;
+        margin-right: auto;
+        left:0;
+        right:0;
+        opacity:1;
+        /*left:20;
+        right:20;*/
     }
+    
 
     .case-study p {
         margin:0;
         position:absolute;
-        bottom:10;
-        left:10;
-        right:10;
+        font-size: 18px;
+        bottom:15;
+        left:15;
+        right:15;
     }
         
-
+    footer {
+    margin: 5%;
+    margin-top: 120px;
+}
 }
 
 
