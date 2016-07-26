@@ -43,8 +43,12 @@ img {
 
 .case-study {
     
-    /* display: inline; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+.col-md-6 {
+    
 }
 
 .case-study h3 {
@@ -94,7 +98,9 @@ img {
 
 
 .image_button {
-	box-shadow: 2px 3px 5px 3px #BBBBBB;
+    -moz-box-shadow:    1px 3px 2px #BBBBBB;
+    -webkit-box-shadow: 1px 3px 2px #BBBBBB;
+	box-shadow: 1px 3px 2px #BBBBBB;
     width:300px;
     height:300px;
 
@@ -178,7 +184,7 @@ h1 {
     font-family: "jaf-bernino-sans-comp semibold",sans-serif;
     font-style: semibold;
     font-size: 36px;
-    line-height: 65px;
+    line-height: 41px;
     
     color: #212121;
 }
@@ -203,9 +209,9 @@ h4 {
 p {
     font-family: "chaparral-pro",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
-    font-weight: 150;
-    font-size: 14px;
-    line-height: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 button {
