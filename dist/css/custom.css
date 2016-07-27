@@ -276,7 +276,14 @@ footer {
     body {
         margin-top: 40px;
     }
-
+    .project-subtitle {
+        font-family: "jaf-bernina-sans", sans-serif;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: gray;
+        font-weight: lighter;
+    }
     .wrapper {
         position: relative;
 /*        width:250px;  */        
