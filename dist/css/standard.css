@@ -17,6 +17,9 @@
 	line-height: 24px;
 }
 
+.col-md-9 {
+	padding:0px;
+}
 .moar-spacing {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -392,6 +395,8 @@
 
 #experience-header {
 	margin: 25px 2%;
+	m
+
 }
 
 #collaborate {}

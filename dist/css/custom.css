@@ -47,9 +47,6 @@ img {
     margin-bottom: 30px;
 }
 
-.col-md-6 {
-    
-}
 
 .case-study h3 {
     margin:0;
@@ -128,7 +125,7 @@ img {
 
 .navbar .nav > li > a:hover {
     float: #D3CDED;
-    /* color: #002E36;
+    /* color: #002E36;md
     */
     color: #01B5DD;
     background-color: #404040;
@@ -168,14 +165,25 @@ img {
 	height: 100%;
 }
 
-.featurette {
-    
+.featurette-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*.repeat_image {
 	background-image: url("../../images/geometry2.png");
 	background-color: #FFFFFF;
 }*/
+
+.project-subtitle {
+    font-family: "jaf-bernina-sans", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: gray;
+    font-weight: lighter;
+}
+
 
 h1 {
         /*font-family: "jaf-bernina-sans", sans-serif;
@@ -193,11 +201,15 @@ h1 {
 h2 {
     font-family: "jaf-bernina-sans", sans-serif;
     font-style: light;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 h3 {
     font-family: "jaf-bernina-sans", sans-serif;
+    font-size: 18px;
+    color: gray;
+    font-weight: lighter;
+    display:block;
 }
 
 h4 {
@@ -210,7 +222,7 @@ p {
     font-family: "chaparral-pro",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -222,11 +234,15 @@ button {
 
 nav ul li{
     text-align: right;
+    font-family: "jaf-bernina-sans", sans-serif;
+    font-weight: 150px;
+    font-size: 18px;
+
 }
 
 body li {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-
+    font-family: "chaparral-pro",sans-serif;
+    font-size: 18px;
 }
 
 footer {
@@ -240,8 +256,21 @@ footer {
         font-size: 24px;
     }
 
+    body li {  
+        font-family: "chaparral-pro",sans-serif;
+        font-size: 24px;
+    }
+
     h1 {
         font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
     }
 
     body {
