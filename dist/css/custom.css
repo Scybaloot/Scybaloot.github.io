@@ -12,6 +12,11 @@
 */    display:block;
 }
 
+.bio-paragraph {
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+
 .text {
     position: absolute;
     bottom:0;
@@ -181,7 +186,7 @@ img {
     margin-bottom: 20px;
     font-size: 18px;
     color: gray;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 
@@ -206,10 +211,8 @@ h2 {
 
 h3 {
     font-family: "jaf-bernina-sans", sans-serif;
-    font-size: 18px;
-    color: gray;
-    font-weight: lighter;
-    display:block;
+    font-size: 20px;
+    color: black;
 }
 
 h4 {
@@ -222,7 +225,7 @@ p {
     font-family: "chaparral-pro",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
 }
 
@@ -243,6 +246,12 @@ nav ul li{
 body li {
     font-family: "chaparral-pro",sans-serif;
     font-size: 18px;
+    line-height: 20px;
+}
+
+body ol {
+    padding-left: 30px;
+    margin-top: -10px;
 }
 
 footer {
@@ -282,7 +291,7 @@ footer {
         margin-bottom: 20px;
         font-size: 20px;
         color: gray;
-        font-weight: lighter;
+        font-weight: 400;
     }
     .wrapper {
         position: relative;
@@ -407,7 +416,10 @@ footer {
         z-index:1;
     }
 
-    
+    .bio-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
     
 
