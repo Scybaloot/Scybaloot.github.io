@@ -129,8 +129,11 @@ img {
     color: #e6e6e6;
 }
 
+.home-page > a:hover {
+    color: #EBB8B0
+}
+
 .navbar .nav > li > a:hover {
-    float: #D3CDED;
     /* color: #002E36;md
     */
     color: #EBB8B0;
