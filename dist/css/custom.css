@@ -17,6 +17,7 @@
     margin-bottom: 50px;
 }
 
+
 .text {
     position: absolute;
     bottom:0;
@@ -170,7 +171,7 @@ img {
         margin-right:auto;
         text-align:center;
         display:inline-block;
-        width:400px;
+        width:100%;
 }
 
 .subdued {
@@ -184,8 +185,10 @@ img {
 }
 
 .featurette-divider {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 55px;
+    margin-bottom: 90px;
+    border-color: #7B8B9B;
+    border-width: 1px;
 }
 
 /*.repeat_image {
@@ -202,6 +205,14 @@ img {
     font-weight: 400;
 }
 
+
+.navbar-margin {
+    margin-top: 55px;
+}
+
+.overhang {
+        margin-top: 25px;
+    } /* for when the width is too small for all elements, and one must overhang */
 
 h1 {
         /*font-family: "jaf-bernina-sans", sans-serif;
@@ -302,10 +313,10 @@ footer {
     .project-subtitle {
         font-family: "jaf-bernina-sans", sans-serif;
         margin-top: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 24px;
-        color: gray;
-        font-weight: 400;
+        color: #7B8B99;
+        font-weight: 300;
     }
     .wrapper {
         position: relative;
@@ -362,7 +373,7 @@ footer {
         margin-right:auto;
         text-align:center;
         display:inline-block;
-        width:1200px;
+        width:100%;
     }
 
     .case-study {
@@ -430,12 +441,21 @@ footer {
         z-index:1;
     }
 
+    .overhang {
+        
+    }
+
     .bio-paragraph {
     margin-top: 20px;
     margin-bottom: 20px;
 }
   
-    
+    .featurette-divider {
+    margin-top: 90px;
+    margin-bottom: 135px;
+    border-color: #7B8B9B;
+    border-width: 2px;
+}
 
     footer {
     margin: 5%;
