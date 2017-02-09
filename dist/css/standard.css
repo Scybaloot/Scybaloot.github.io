@@ -23,7 +23,7 @@
 
 
 .top-margin {
-	margin-top: 64px;
+	margin-top: 110px;
 }
 
 .bottom-margin{
@@ -38,15 +38,15 @@
 .bottom-margin {
 	margin-bottom: 4%;
 }
+*/
 
 .short-bottom-margin {
-	margin-bottom: 4%;
+	margin-bottom: 25px;
 }
 
 .v-short-bottom-margin {
 	margin-bottom: 1%;
 }
-*/
 
 .margin_border {
 	margin: .5rem;
