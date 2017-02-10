@@ -70,6 +70,10 @@ img {
     position:absolute;
     
 }
+a.side-nav1 {
+    background-color:#FFFFFF;
+    color:#232B2F
+}
 
 .black-text {
     color:black;
@@ -215,7 +219,10 @@ div.anchor {
     font-weight: 400;
 }
 
-
+.mobile-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 .navbar-margin {
     margin-top: 55px;
 }
