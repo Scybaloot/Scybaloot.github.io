@@ -72,12 +72,12 @@ img {
 }
 a.side-nav1 {
     background-color:#FFFFFF;
-    color:#232B2F
+    color:#4F6069;
 }
 
 .side-nav1 {
     background-color:#FFFFFF;
-    color:#232B2F
+    color:#4F6069;
 }
 
 .black-text {
@@ -221,7 +221,7 @@ div.anchor {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 18px;
-    color: gray;
+    color: #788E9A;
     font-weight: 400;
 }
 
@@ -302,8 +302,8 @@ body ol {
 }
 
 footer {
-    margin: 5%;
     margin-top: 30px;
+    text-align: left;
 }
 
 @media only screen and (min-width: 900px) {
@@ -338,7 +338,7 @@ footer {
         margin-top: 5px;
         margin-bottom: 30px;
         font-size: 24px;
-        color: #7B8B99;
+        color: #788E9A;
         font-weight: 300;
     }
     .wrapper {
@@ -481,8 +481,8 @@ footer {
 }
 
     footer {
-    margin: 5%;
     margin-top: 120px;
+    text-align: left;
 }
 }
 
