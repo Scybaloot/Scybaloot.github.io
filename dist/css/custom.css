@@ -277,8 +277,8 @@ h1 {
         */
   /*font-family: "source-sans-pro",sans-serif;*/
     font-family: "ProximaNova-Thin", sans-serif;
-    font-size: 64px;
-    line-height: 41px;
+    font-size: 48px;
+    line-height: 48px;
     
     color: #405F71;
 }
@@ -310,7 +310,7 @@ p {
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
-    
+
 }
 
 button {
