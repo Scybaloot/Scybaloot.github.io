@@ -1,6 +1,16 @@
 
 /* classes */
 
+@font-face
+{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-Bold.otf'),
+    url('../fonts/ProximaNova-Light.otf'),
+    url('../fonts/ProximaNova-Reg.otf'),
+    url('../fonts/ProximaNova-SBold.otf'),
+    url('../fonts/ProximaNova-Thin.otf');
+}
+
 .current-page {
 	color: #337AB7;
 }
@@ -326,12 +336,10 @@
 	height:8%;
 }
 
-.emphasis {
-    font-family: "chaparral-pro",sans-serif;
-	font-weight: 600;
+/*.emphasis {
+    font-family: "ProximaNova-Light",sans-serif;
 	font-size: 20px;
-	font-style: bold;
-}
+}*/
 
 
 /* ID's */

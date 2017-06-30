@@ -5,6 +5,17 @@
 /* ----------------------------  end image tiles --------- */
 
 
+@font-face
+{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-Bold.otf'),
+    url('../fonts/ProximaNova-Light.otf'),
+    url('../fonts/ProximaNova-Reg.otf'),
+    url('../fonts/ProximaNova-SBold.otf'),
+    url('../fonts/ProximaNova-Thin.otf');
+}
+
+
 .wrapper {
     position: relative;
     padding: 0;
@@ -16,6 +27,7 @@
     margin-top: 14px;
     margin-bottom: 50px;
 }
+
 
 
 .text {
@@ -71,13 +83,13 @@ img {
     
 }
 a.side-nav1 {
-    background-color:#FFFFFF;
-    color:#4F6069;
+    /*background-color:#FFFFFF;*/
+    color:#405F71;
 }
 
 .side-nav1 {
-    background-color:#FFFFFF;
-    color:#4F6069;
+    /*background-color:#FFFFFF;*/
+    color:#405F71;
 }
 
 .black-text {
@@ -90,8 +102,15 @@ a.side-nav1 {
 }
 
 .navbar {
-	background-color: #254170;
-	color: #D3CDED;
+/*    Background gradient    */  
+  background: #FFFB95; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF9595, #FFFB95); /* Standard syntax */
+
+/*	background-color: #254170;
+*/	color: #405F71;
 	border-width: 0px;
 	box-shadow: 0px 2px 3px 0 #BBBBBB;
 }
@@ -124,19 +143,19 @@ a.side-nav1 {
 }
 
 .dark_navbar {
-    background-color: #254170;
-    color: #D3CDED;
-} 
+    background: 0%;  
+}
 /* change border */
 
 .navbar-toggle {
-	background-color: #254170;
+	background-color: 0%;
     border-color:#FFFFFF;
-	color: #EBB8B0;
+
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #e6e6e6;
+    color: #305A73;
+    font-size: 18px;
 }
 
 .project-nav {
@@ -154,25 +173,37 @@ div.anchor {
     visibility: hidden;
 }
 
+
+
+.grad {
+  background: #FFFB95; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF9595, #FFFB95); /* Standard syntax */
+}
+
 .navbar .nav > li > a:hover {
     /* color: #002E36;md
     */
-    color: #EBB8B0;
-    background-color: #254170;
-}
+    color: #FFFFFF;
+/*    background-color: #254170;
+*/}
 
 .navbar-inverse .navbar-brand {
-    color: #e6e6e6;
+    color: #405F71;
+    font-family: "ProximaNova-Light",sans-serif;
 }
 
 .navbar-inverse .navbar-brand > :hover{
-    color: #EBB8B0;
+    color: #FFFFFF;
+    font-family: "ProximaNova-Light",sans-serif;
 }
 
 .btn-default {
 	/* background-color: #B07D8B; 
 	*/
-	background-color: #B0DB64;
+	/*background-color: #B0DB64;*/
 	color: #FFFFFF;
 
 }
@@ -237,43 +268,49 @@ div.anchor {
         margin-top: 25px;
     } /* for when the width is too small for all elements, and one must overhang */
 
+body {
+    color:#405F71;
+}
+
 h1 {
         /*font-family: "jaf-bernina-sans", sans-serif;
         */
   /*font-family: "source-sans-pro",sans-serif;*/
-    font-family: "jaf-bernina-sans", sans-serif;
-    font-style: bold;
-    font-size: 36px;
+    font-family: "ProximaNova-Thin", sans-serif;
+    font-size: 64px;
     line-height: 41px;
     
-    color: #212121;
+    color: #405F71;
 }
 
 
 h2 {
-    font-family: "jaf-bernina-sans", sans-serif;
+    font-family: "ProximaNova-SBold", sans-serif;
     font-style: light;
     font-size: 28px;
+    color: #405F71;
 }
 
 h3 {
-    font-family: "jaf-bernina-sans", sans-serif;
+    font-family: "ProximaNova-SBold", sans-serif;
     font-size: 20px;
-    color: black;
+    color: #405F71;
 }
 
 h4 {
-    font-family: "jaf-bernina-sans", sans-serif;
-    font-weight: bolder;
+    font-family: "ProximaNova-SBold
+    ", sans-serif;
     line-height: 25px;
+    color: #405F71;
 }
 
 p {
-    font-family: "chaparral-pro",sans-serif;
+    font-family: "ProximaNova-Reg",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+    
 }
 
 button {
@@ -284,14 +321,13 @@ button {
 
 nav ul li{
     text-align: right;
-    font-family: "jaf-bernina-sans", sans-serif;
-    font-weight: 150px;
+    font-family: "ProximaNova-Light", sans-serif;
     font-size: 18px;
 
 }
 
 body li {
-    font-family: "chaparral-pro",sans-serif;
+    font-family: "ProximaNova-Reg",sans-serif;
     font-size: 18px;
     line-height: 20px;
 }
@@ -313,7 +349,7 @@ footer {
     }
 
     body li {  
-        font-family: "chaparral-pro",sans-serif;
+        font-family: "ProximaNova-Reg",sans-serif;
         font-size: 24px;
         line-height: 28px;
     }
@@ -334,7 +370,7 @@ footer {
         margin-top: 40px;
     }
     .project-subtitle {
-        font-family: "jaf-bernina-sans", sans-serif;
+        font-family: "ProximaNova-Reg", sans-serif;
         margin-top: 5px;
         margin-bottom: 30px;
         font-size: 24px;

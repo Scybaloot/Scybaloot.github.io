@@ -1,0 +1,11 @@
+/* custom.css */
+
+@font-face
+{
+    font-family: ProximaNova;
+    src: url('../fonts/ProximaNova-Bold.otf'),
+    url('../fonts/ProximaNova-Light.otf'),
+    url('../fonts/ProximaNova-Reg.otf'),
+    url('../fonts/ProximaNova-SBold.otf'),
+    url('../fonts/ProximaNova-Thin.otf');
+}
