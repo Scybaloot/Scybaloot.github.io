@@ -92,9 +92,7 @@ a.side-nav1 {
     color:#405F71;
 }
 
-.black-text {
-    color:black;
-}
+
 /* ----------------------------  end image tiles --------- */
 
 .project-cards {
@@ -159,8 +157,7 @@ a.side-nav1 {
 }
 
 .project-nav {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 24px;
 }
 .home-page > a:hover {
     color: #EBB8B0
@@ -226,8 +223,8 @@ div.anchor {
 }
 
 .subdued {
-    color:#eeeeee;
-    font-family: "jaf-bernina-sans", sans-serif;
+    color:#405F71;
+    font-family: "ProximaNova-Reg", sans-serif;
 }
 
 
@@ -248,11 +245,11 @@ div.anchor {
 }*/
 
 .project-subtitle {
-    font-family: "jaf-bernina-sans", sans-serif;
+    font-family: "ProximaNova-Reg", sans-serif;
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 18px;
-    color: #788E9A;
+    color: #405F71;
     font-weight: 400;
 }
 
@@ -276,7 +273,7 @@ h1 {
         /*font-family: "jaf-bernina-sans", sans-serif;
         */
   /*font-family: "source-sans-pro",sans-serif;*/
-    font-family: "ProximaNova-Thin", sans-serif;
+    font-family: "ProximaNova-Light", sans-serif;
     font-size: 48px;
     line-height: 48px;
     
@@ -305,11 +302,11 @@ h4 {
 }
 
 p {
-    font-family: "ProximaNova-Reg",sans-serif;
+    font-family: "ProximaNova-Light",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
-    font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: -.6;
 
 }
 
@@ -321,13 +318,13 @@ button {
 
 nav ul li{
     text-align: right;
-    font-family: "ProximaNova-Light", sans-serif;
+    font-family: "ProximaNova-SBold", sans-serif;
     font-size: 18px;
 
 }
 
 body li {
-    font-family: "ProximaNova-Reg",sans-serif;
+    font-family: "ProximaNova-Light",sans-serif;
     font-size: 18px;
     line-height: 20px;
 }
@@ -349,13 +346,15 @@ footer {
     }
 
     body li {  
-        font-family: "ProximaNova-Reg",sans-serif;
+        font-family: "ProximaNova-Light",sans-serif;
         font-size: 24px;
         line-height: 28px;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 64px;
+        line-height: 64px;
+
     }
 
     h2 {
@@ -374,7 +373,7 @@ footer {
         margin-top: 5px;
         margin-bottom: 30px;
         font-size: 24px;
-        color: #788E9A;
+        color: #405F71;
         font-weight: 300;
     }
     .wrapper {
@@ -415,7 +414,7 @@ footer {
     }
 
     .text-box {
-        background-color:rgba(0,0,0,0.8);
+        background-color:rgba(255,251,149,0.9);
         width: 100%;
         height: 80px;
         position: absolute;
