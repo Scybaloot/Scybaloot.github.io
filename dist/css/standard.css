@@ -33,7 +33,7 @@
 
 
 .top-margin {
-	margin-top: 110px;
+	margin-top: 88px;
 }
 
 .bottom-margin{
@@ -425,7 +425,7 @@
 @media only screen and (min-width: 600px) {
 
 	#experience-header {
-		margin-top: 96px;
+		margin-top: 78px;
 		margin-bottom: 120px;
 		margin-left: auto;
 		margin-bottom: auto;
@@ -451,8 +451,8 @@
 	}
 
 	.emphasis {
-/*		font-weight: 400;
-*/		font-size: 24px;
+		font-weight: 400;
+		font-size: 24px;
 	}
 
 	.margin-top {

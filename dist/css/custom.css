@@ -28,6 +28,10 @@
     margin-bottom: 50px;
 }
 
+.bio-sections {
+    margin-bottom: 48px;
+}
+
 
 
 .text {
@@ -110,7 +114,7 @@ a.side-nav1 {
 /*	background-color: #254170;
 */	color: #405F71;
 	border-width: 0px;
-	box-shadow: 0px 2px 3px 0 #BBBBBB;
+	box-shadow: 0px 2px 2px 0 #BBBBBB;
 }
 
 .navbar-fixed-top {
@@ -148,11 +152,12 @@ a.side-nav1 {
 .navbar-toggle {
 	background-color: 0%;
     border-color:#FFFFFF;
+    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
 
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #305A73;
+    color: #405F71;
     font-size: 18px;
 }
 
@@ -183,7 +188,10 @@ div.anchor {
 .navbar .nav > li > a:hover {
     /* color: #002E36;md
     */
+    font-family: "ProximaNova-Reg",sans-serif;
     color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
+ 
 /*    background-color: #254170;
 */}
 
@@ -194,7 +202,9 @@ div.anchor {
 
 .navbar-inverse .navbar-brand > :hover{
     color: #FFFFFF;
-    font-family: "ProximaNova-Light",sans-serif;
+    font-family: "ProximaNova-Reg",sans-serif;
+    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
+
 }
 
 .btn-default {
@@ -318,7 +328,7 @@ button {
 
 nav ul li{
     text-align: right;
-    font-family: "ProximaNova-SBold", sans-serif;
+    font-family: "ProximaNova-Light", sans-serif;
     font-size: 18px;
 
 }
