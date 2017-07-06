@@ -164,6 +164,11 @@ a.side-nav1 {
 .project-nav {
     font-size: 24px;
 }
+
+.project-nav: a:hover {
+    background-color: #FF9595;
+}
+
 .home-page > a:hover {
     color: #EBB8B0
 }
@@ -191,7 +196,7 @@ div.anchor {
     font-family: "ProximaNova-Reg",sans-serif;
     color: #FFFFFF;
     text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
- 
+
 /*    background-color: #254170;
 */}
 
@@ -242,11 +247,17 @@ div.anchor {
 	height: 100%;
 }
 
-.featurette-divider {
+.top-padding-projects {
+    padding-top:60px;
+}
+
+.tropical_divider { 
     margin-top: 55px;
     margin-bottom: 90px;
-    border-color: #7B8B9B;
-    border-width: 1px;
+    height: 2px;
+    border: 0;
+    background: #FF9595;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FFFB95), to(#FFFB95), color-stop(50%, #FF9595));
 }
 
 /*.repeat_image {
@@ -539,8 +550,18 @@ footer {
     .featurette-divider {
     margin-top: 55px;
     margin-bottom: 125px;
-    border-color: #7B8B9B;
+    border-color: #FF9595;
     border-width: 2px;
+
+}
+
+    .tropical_divider { 
+    margin-top: 102px;
+    margin-bottom: 125px;
+    height: 4px;
+    border: 0;
+    background: #FF9595;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FFFB95), to(#FFFB95), color-stop(50%, #FF9595));
 }
 
     footer {
