@@ -295,8 +295,8 @@ h1 {
         */
   /*font-family: "source-sans-pro",sans-serif;*/
     font-family: "ProximaNova-Light", sans-serif;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 32px;
+    line-height: 32px;
     
     color: #405F71;
 }
@@ -373,8 +373,8 @@ footer {
     }
 
     h1 {
-        font-size: 64px;
-        line-height: 64px;
+        font-size: 48px;
+        line-height: 48px;
 
     }
 
