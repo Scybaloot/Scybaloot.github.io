@@ -104,21 +104,23 @@ a.side-nav1 {
 }
 
 .navbar {
-/*    Background gradient    */  
-  background: #FFFB95; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #FF9595, #FFFB95); /* Standard syntax */
+/*    Background gradient    */ 
+   
+
+  background-color: #ccedb8; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */*/
+  /*background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */*/
+  /*background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */*/
+  /*background: linear-gradient(to bottom right, #FF9595, #FFFB95); /* Standard syntax */*/
 
 /*	background-color: #254170;
-*/	color: #405F71;
+*/	color: #2c1f65;
 	border-width: 0px;
 	box-shadow: 0px 2px 2px 0 #BBBBBB;
 }
 
 .navbar-fixed-top {
-	background-color: #254170;
+	background-color: #ccedb8;
 	color: #D3CDED;
 }
 
@@ -195,7 +197,7 @@ div.anchor {
     */
     font-family: "ProximaNova-Reg",sans-serif;
     color: #FFFFFF;
-    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
+    /*text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
 /*    background-color: #254170;
 */}
@@ -208,7 +210,8 @@ div.anchor {
 .navbar-inverse .navbar-brand > :hover{
     color: #FFFFFF;
     font-family: "ProximaNova-Reg",sans-serif;
-    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
+    /*
+    text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
 }
 
