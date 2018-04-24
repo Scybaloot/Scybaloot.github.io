@@ -42,7 +42,7 @@
     width: 100px;
     height: 100px;
     line-height:100px;
-    text-align: center;
+    text-align: left;
     z-index: 10;
     opacity: 0;
     box-shadow: 10px;
@@ -84,6 +84,7 @@ img {
 .case-study p {
     margin:0;
     position:absolute;
+    text-align: left;
     
 }
 a.side-nav1 {
@@ -136,8 +137,8 @@ a.side-nav1 {
     -moz-box-shadow:    1px 3px 2px #BBBBBB;
     -webkit-box-shadow: 1px 3px 2px #BBBBBB;
 	box-shadow: 1px 3px 2px #BBBBBB;
-    width:300px;
-    height:300px;
+    width:360px;
+    height:360px;
 
 }
 
@@ -195,7 +196,7 @@ div.anchor {
 .navbar .nav > li > a:hover {
     /* color: #002E36;md
     */
-    font-family: "ProximaNova-Light",sans-serif;
+    font-family: "ProximaNova-Bold",sans-serif;
     color: #2497C9;
     /*text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
@@ -204,12 +205,12 @@ div.anchor {
 
 .navbar-inverse .navbar-brand {
     color: #405F71;
-    font-family: "ProximaNova-Light",sans-serif;
+    font-family: "ProximaNova-Bold",sans-serif;
 }
 
 .navbar-inverse .navbar-brand > :hover{
     color: #2497C9;
-    font-family: "ProximaNova-Light",sans-serif;
+    font-family: "ProximaNova-Bold",sans-serif;
     /*
     text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
@@ -233,16 +234,17 @@ div.anchor {
 
 .case-studies-row {
         margin-top: 30px;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
+    
+        text-align:left;
         display:inline-block;
         width:100%;
 }
 
 .subdued {
     color:#2D3450;
-    font-family: "ProximaNova-Light", sans-serif;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 
@@ -299,9 +301,9 @@ h1 {
         /*font-family: "jaf-bernina-sans", sans-serif;
         */
   /*font-family: "source-sans-pro",sans-serif;*/
-    font-family: "ProximaNova-Light", sans-serif;
+    font-family: "ProximaNova-Bold", sans-serif;
     font-size: 32px;
-    line-height: 32px;
+    line-height: 52px;
     
     color: #405F71;
 }
@@ -328,10 +330,10 @@ h4 {
 }
 
 p {
-    font-family: "ProximaNova-Light",sans-serif;
+    font-family: "ProximaNova-Regular",sans-serif;
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
     font-size: 20px;
-    line-height: 24px;
+    line-height: 32px;
     letter-spacing: -.6;
 
 }
@@ -344,7 +346,8 @@ button {
 
 nav ul li{
     text-align: right;
-    font-family: "ProximaNova-Light", sans-serif;
+    font-family: "ProximaNova-Bold", sans-serif;
+    letter-spacing: 1px;
     font-size: 18px;
 
 }
@@ -369,26 +372,30 @@ footer {
 
     p {
         font-size: 24px;
+        line-height: 39px;
     }
 
     body li {  
-        font-family: "ProximaNova-Light",sans-serif;
+        font-family: "ProximaNova-Bold",sans-serif;
         font-size: 24px;
         line-height: 28px;
+        letter-spacing: 1px;
     }
 
     h1 {
         font-size: 48px;
-        line-height: 48px;
+        line-height: 78px;
 
     }
 
     h2 {
         font-size: 36px;
+        line-height: 56px
     }
 
     h3 {
         font-size: 24px;
+        line-height: 40px;
     }
 
     body {
@@ -418,7 +425,7 @@ footer {
         margin-right: auto;
         left:0;
         right:0;
-        width: 375px;
+        width: 360px;
         height: 350px;
         line-height:100px;
         text-align: center;
@@ -451,7 +458,7 @@ footer {
         width: 100%;
         height: 80px;
         position: absolute;
-        bottom: -25;
+        bottom: 0px;
     }
 
     .large-text-box {
@@ -485,11 +492,10 @@ footer {
     }
     .case-study h3 {
         position: absolute;
-        bottom:320;
+        bottom:392;
         margin:0;
         position:absolute;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: left;
         left:0;
         right:0;
         opacity:1;
@@ -544,6 +550,7 @@ footer {
     }
 
     .overhang {
+
         
     }
 
