@@ -137,8 +137,10 @@ a.side-nav1 {
     -moz-box-shadow:    1px 3px 2px #BBBBBB;
     -webkit-box-shadow: 1px 3px 2px #BBBBBB;
 	box-shadow: 1px 3px 2px #BBBBBB;
-    width:360px;
-    height:360px;
+    width:320px;
+    height:320px;
+    margin-left: auto;
+    margin-right: auto
 
 }
 
@@ -233,8 +235,7 @@ div.anchor {
 }
 
 .case-studies-row {
-        margin-top: 30px;
-    
+        margin-top: 0px;
         text-align:left;
         display:inline-block;
         width:100%;
@@ -304,7 +305,6 @@ h1 {
     font-family: "ProximaNova-Bold", sans-serif;
     font-size: 32px;
     line-height: 52px;
-    
     color: #405F71;
 }
 
@@ -376,10 +376,10 @@ footer {
     }
 
     body li {  
-        font-family: "ProximaNova-Bold",sans-serif;
+        font-family: "ProximaNova-Regular",sans-serif;
         font-size: 24px;
         line-height: 28px;
-        letter-spacing: 1px;
+        
     }
 
     h1 {
@@ -578,6 +578,12 @@ footer {
     margin-top: 120px;
     text-align: left;
 }
+    .image_button {
+        margin-right: auto;
+        height: 360px;
+        width: 360px;
+
+
 }
 
 
