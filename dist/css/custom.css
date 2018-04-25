@@ -51,7 +51,6 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     float:none;
-    margin: 0 auto;
     
 }
 .text:hover {
@@ -140,7 +139,8 @@ a.side-nav1 {
     width:320px;
     height:320px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+
 
 }
 
@@ -299,9 +299,6 @@ body {
 }
 
 h1 {
-        /*font-family: "jaf-bernina-sans", sans-serif;
-        */
-  /*font-family: "source-sans-pro",sans-serif;*/
     font-family: "ProximaNova-Bold", sans-serif;
     font-size: 32px;
     line-height: 32px;
@@ -334,7 +331,6 @@ p {
     /*font-family: "jaf-bernina-sans", sans-serif light;*/
     font-size: 20px;
     line-height: 32px;
-    letter-spacing: -.6;
 
 }
 
@@ -421,15 +417,14 @@ footer {
         display: block;
         color:#2497C9;
         float:none;
-        margin-left: auto;
-        margin-right: auto;
         left:0;
         right:0;
         width: 360px;
-        height: 350px;
+        height: 360px;
         line-height:100px;
-        text-align: center;
+        text-align: left;
         z-index: 10;
+        margin-left: 0px;
         /*opacity: 0;*/
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
@@ -478,21 +473,19 @@ footer {
 
     .case-studies-row {
         margin-top: 48px;
-        margin-left:auto;
         margin-right:auto;
-        text-align:center;
         display:inline-block;
         width:100%;
     }
 
     .case-study {
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin-top: 16px;
+        margin-bottom: 16px;
         
     }
     .case-study h3 {
         position: absolute;
-        bottom:392;
+        bottom:376;
         margin:0;
         position:absolute;
         text-align: left;
@@ -579,9 +572,10 @@ footer {
     text-align: left;
 }
     .image_button {
-        margin-right: auto;
+        
         height: 360px;
         width: 360px;
+
 
 
 }
