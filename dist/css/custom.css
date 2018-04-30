@@ -137,9 +137,9 @@ a.side-nav1 {
     -webkit-box-shadow: 1px 3px 2px #BBBBBB;
 	box-shadow: 1px 3px 2px #BBBBBB;
     width:320px;
-    height:320px;
-    margin-left: auto;
-    margin-right: auto;
+    height:222px;
+    overflow: hidden;
+
 
 
 }
@@ -262,8 +262,7 @@ div.anchor {
     margin-bottom: 90px;
     height: 2px;
     border: 0;
-    background: #FF9595;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FFFB95), to(#FFFB95), color-stop(50%, #FF9595));
+    background: #FFE7DE;
 }
 
 /*.repeat_image {
@@ -419,8 +418,8 @@ footer {
         float:none;
         left:0;
         right:0;
-        width: 360px;
-        height: 360px;
+        width: 352px;
+        height: 217px;
         line-height:100px;
         text-align: left;
         z-index: 10;
@@ -472,7 +471,7 @@ footer {
     }
 
     .case-studies-row {
-        margin-top: 48px;
+        margin-top: 24px;
         margin-right:auto;
         display:inline-block;
         width:100%;
@@ -485,7 +484,7 @@ footer {
     }
     .case-study h3 {
         position: absolute;
-        bottom:376;
+        bottom:223;
         margin:0;
         position:absolute;
         text-align: left;
@@ -563,8 +562,7 @@ footer {
     margin-bottom: 125px;
     height: 4px;
     border: 0;
-    background: #FF9595;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FFFB95), to(#FFFB95), color-stop(50%, #FF9595));
+    background: #FFE7DE;
 }
 
     footer {
@@ -573,8 +571,10 @@ footer {
 }
     .image_button {
         
-        height: 360px;
-        width: 360px;
+        height: 217px;
+        width: 352px;
+        overflow: hidden;
+
 
 
 
