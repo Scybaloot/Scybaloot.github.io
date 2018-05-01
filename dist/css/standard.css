@@ -424,22 +424,18 @@
 @media only screen and (min-width: 900px) {
 
 	#experience-header {
-		margin-top: 78px;
+		margin-top: 40px;
 		margin-bottom: 120px;
 		margin-left: auto;
 		margin-bottom: auto;
 	}
 
-	h1 {
-		font-size: 48px;
-		font-style: bold;
-	}
 
 	.bio {
 		font-size: 24px;
 		line-height: 30px;
 		font-weight: 300;
-		margin-bottom: 22px;
+		margin-bottom: 0px;
 	}
 
 
