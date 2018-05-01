@@ -243,9 +243,7 @@ div.anchor {
 
 .subdued {
     color:#2D3450;
-    font-family: "ProximaNova-Regular", sans-serif;
-    font-size: 16px;
-    line-height: 26px;
+    font-family: "ProximaNova-SBold", sans-serif;
 }
 
 
@@ -293,17 +291,14 @@ div.anchor {
         margin-top: 25px;
     } /* for when the width is too small for all elements, and one must overhang */
 
-.bio-title {
-    margin-bottom:0px;
-    margin-top:16px;
-}
+
 body {
     color:#405F71;
 }
 
 h1 {
     font-family: "ProximaNova-Bold", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 32px;
     color: #405F71;
 }
@@ -384,6 +379,7 @@ footer {
     h1 {
         font-size: 48px;
         line-height: 78px;
+        margin-top: 64px;
     }
 
     h2 {
@@ -399,10 +395,7 @@ footer {
     body {
         margin-top: 40px;
     }
-    .bio-title {
-        margin-bottom:0px;
-        margin-top:0px;
-    }
+    
 
     .project-subtitle {
         font-family: "ProximaNova-Reg", sans-serif;
@@ -456,11 +449,12 @@ footer {
     }
 
     .text-box {
-        background-color:rgb(255,231,222);
+        background-color:rgb(255,231,222, 0.98);
         width: 100%;
-        height: 80px;
+        height: 96px;
         position: absolute;
         bottom: 0px;
+        font: "ProximaNova-SBold", sans-serif;
     }
 
     .large-text-box {
@@ -505,12 +499,14 @@ footer {
     
 
     .case-study p {
+        font: "ProximaNova-SBold", sans-serif;
         margin:0;
         position:absolute;
         font-size: 18px;
-        bottom:15;
-        left:15;
-        right:15;
+        line-height: 28px;
+        bottom:20px;
+        left:24px;
+        right:24px;
     }
       
     .mockup-text {
