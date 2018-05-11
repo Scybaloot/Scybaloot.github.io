@@ -39,9 +39,6 @@
     bottom:0;
     color:#2497C9;
     /* make text visible on mobile, invisible on desktop*/
-    width: 100px;
-    height: 100px;
-    line-height:100px;
     text-align: left;
     z-index: 10;
     opacity: 0;
@@ -168,6 +165,7 @@ a.side-nav1 {
 
 .project-nav {
     font-size: 24px;
+    font-family: "ProximaNova-Bold", sans-serif;
 }
 
 .project-nav: a:hover {
@@ -198,7 +196,7 @@ div.anchor {
 .navbar .nav > li > a:hover {
     /* color: #002E36;md
     */
-    font-family: "ProximaNova-Bold",sans-serif;
+    font-family: "ProximaNova-SBold",sans-serif;
     color: #2497C9;
     /*text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
@@ -207,12 +205,12 @@ div.anchor {
 
 .navbar-inverse .navbar-brand {
     color: #405F71;
-    font-family: "ProximaNova-Bold",sans-serif;
+    font-family: "ProximaNova-SBold",sans-serif;
 }
 
 .navbar-inverse .navbar-brand > :hover{
     color: #2497C9;
-    font-family: "ProximaNova-Bold",sans-serif;
+    font-family: "ProximaNova-SBold",sans-serif;
     /*
     text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
@@ -338,7 +336,7 @@ button {
 
 nav ul li{
     text-align: right;
-    font-family: "ProximaNova-Bold", sans-serif;
+    font-family: "ProximaNova-SBold", sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
 
@@ -420,7 +418,6 @@ footer {
         right:0;
         width: 352px;
         height: 217px;
-        line-height:100px;
         text-align: left;
         z-index: 10;
         margin-left: 0px;
@@ -450,7 +447,7 @@ footer {
     .text-box {
         background-color:rgb(255,231,222, 0.98);
         width: 100%;
-        height: 96px;
+        height: 80px;
         position: absolute;
         bottom: 0px;
         font: "ProximaNova-SBold", sans-serif;
@@ -502,8 +499,8 @@ footer {
         margin:0;
         position:absolute;
         font-size: 18px;
-        line-height: 28px;
-        bottom:20px;
+        line-height: 24px;
+        bottom:16px;
         left:24px;
         right:24px;
     }
