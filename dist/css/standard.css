@@ -1,7 +1,7 @@
 
 /* classes */
 
-@font-face
+@font-face 
 {
     font-family: ProximaNova;
     src: url('../fonts/ProximaNova-Bold.otf'),
@@ -34,7 +34,7 @@
 
 
 .top-margin {
-	margin-top: 12px;
+	margin-top: 16px;
 }
 
 .bottom-margin{
@@ -434,7 +434,7 @@
 
 	.bio {
 		font-size: 24px;
-		line-height: 30px;
+		line-height: 32px;
 		font-weight: 300;
 		margin-bottom: 0px;
 	}
@@ -457,7 +457,7 @@
 	}
 
 	.top-margin {
-	margin-top: 30px;
+	margin-top: 18px;
 }
 
 
@@ -468,6 +468,6 @@
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+a:hover, a:active { #337ab7decoration: none; }
 */
 

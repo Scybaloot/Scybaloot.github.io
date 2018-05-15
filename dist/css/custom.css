@@ -281,7 +281,7 @@ div.anchor {
     padding-right: 16px;
 }
 .navbar-margin {
-    margin-top: 55px;
+    margin-top: 58px;
 }
 
 .overhang {
@@ -348,7 +348,7 @@ body li {
     line-height: 20px;
 }
 
-body ol {
+body ol { 
     padding-left: 30px;
     margin-top: -10px;
 }
@@ -469,7 +469,7 @@ footer {
     }
 
     .case-studies-row {
-        margin-top: 24px;
+        margin-top: 23px;
         margin-right:auto;
         display:inline-block;
         width:100%;
@@ -482,7 +482,7 @@ footer {
     }
     .case-study h3 {
         position: absolute;
-        bottom:223;
+        bottom:220;
         margin:0;
         position:absolute;
         text-align: left;
@@ -566,7 +566,7 @@ footer {
 }
 
     footer {
-    margin-top: 120px;
+    margin-top: 124px;
     text-align: left;
 }
     .image_button {
