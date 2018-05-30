@@ -37,7 +37,7 @@
 .text {
     position: absolute;
     bottom:0;
-    color:#2497C9;
+    color:#FFF;
     /* make text visible on mobile, invisible on desktop*/
     text-align: left;
     z-index: 10;
@@ -104,7 +104,7 @@ a.side-nav1 {
 /*    Background gradient    */ 
    
 
-  background-color: #ccedb8; /* For browsers that do not support gradients */
+  background-color: #405F71; /* For browsers that do not support gradients */
   /*background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */*/
   /*background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */*/
   /*background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */*/
@@ -117,7 +117,7 @@ a.side-nav1 {
 }
 
 .navbar-fixed-top {
-	background-color: #FFE7DE;
+	background-color: #405F7;
 	color: #2d3450;
 }
 
@@ -153,13 +153,13 @@ a.side-nav1 {
 
 .navbar-toggle {
 	background-color: 0%;
-    border-color: #2497C9;
+    border-color: #FFF;
     text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);
 
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #405F71;
+    color: #FFF;
     font-size: 18px;
 }
 
@@ -173,7 +173,7 @@ a.side-nav1 {
 }
 
 .home-page > a:hover {
-    color: #FFE7DE
+    color: #405F71
 }
 
 div.anchor {
@@ -197,19 +197,19 @@ div.anchor {
     /* color: #002E36;md
     */
     font-family: "ProximaNova-SBold",sans-serif;
-    color: #2497C9;
+    color: #FFE7DE;
     /*text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
 
 /*    background-color: #254170;
 */}
 
 .navbar-inverse .navbar-brand {
-    color: #405F71;
+    color: #FFF;
     font-family: "ProximaNova-SBold",sans-serif;
 }
 
 .navbar-inverse .navbar-brand > :hover{
-    color: #2497C9;
+    color: #FFE7DE;
     font-family: "ProximaNova-SBold",sans-serif;
     /*
     text-shadow: 0px 0px 4px rgba(255, 196, 149, 100);*/
@@ -240,8 +240,9 @@ div.anchor {
 }
 
 .subdued {
-    color:#2D3450;
-    font-family: "ProximaNova-SBold", sans-serif;
+    color:#FFF;
+    font-family: "ProximaNova-Light", sans-serif;
+    letter-spacing: 0.4;
 }
 
 
@@ -258,7 +259,7 @@ div.anchor {
     margin-bottom: 90px;
     height: 2px;
     border: 0;
-    background: #FFE7DE;
+    background: #405F71;
 }
 
 /*.repeat_image {
@@ -412,7 +413,7 @@ footer {
         position: absolute;
         bottom:0;
         display: block;
-        color:#2497C9;
+        color:#FFF;
         float:none;
         left:0;
         right:0;
@@ -445,7 +446,7 @@ footer {
     }
 
     .text-box {
-        background-color:rgb(255,231,222, 0.98);
+        background-color:rgb(64,95, 113, 0.98);
         width: 100%;
         height: 80px;
         position: absolute;
@@ -562,7 +563,7 @@ footer {
     margin-bottom: 125px;
     height: 4px;
     border: 0;
-    background: #FFE7DE;
+    background: #405F71;
 }
 
     footer {
