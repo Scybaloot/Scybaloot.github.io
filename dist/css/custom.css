@@ -563,11 +563,13 @@ footer {
     margin-bottom: 125px;
     height: 2px;
     border: 0;
+    opacity: .2;
     background: #405F71;
 }
 
     footer {
-    margin-top: 128px;
+    margin-top: 512px;
+    margin-bottom: 512px;
     text-align: left;
 }
     .image_button {
