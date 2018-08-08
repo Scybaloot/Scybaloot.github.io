@@ -101,19 +101,10 @@ a.side-nav1 {
 }
 
 .navbar {
-/*    Background gradient    */ 
-   
-
-  background-color: #405F71; /* For browsers that do not support gradients */
-  /*background: -webkit-linear-gradient(right top, #FF9595, #FFFB95); /* For Safari 5.1 to 6.0 */*/
-  /*background: -o-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Opera 11.1 to 12.0 */*/
-  /*background: -moz-linear-gradient(bottom left, #FF9595, #FFFB95); /* For Firefox 3.6 to 15 */*/
-  /*background: linear-gradient(to bottom right, #FF9595, #FFFB95); /* Standard syntax */*/
-
-/*	background-color: #254170;
-*/	color: #2c1f65;
-	border-width: 0px;
-	box-shadow: 0px 2px 2px 0 #BBBBBB;
+  background-color: #1F3541; 
+  color: #2c1f65;
+  border-width: 0px;
+  box-shadow: 0px 2px 2px 0 #BBBBBB;
 }
 
 .navbar-fixed-top {
@@ -291,34 +282,34 @@ div.anchor {
 
 
 body {
-    color:#405F71;
+    color:#1F3541;
 }
 
 h1 {
     font-family: "ProximaNova-Bold", sans-serif;
     font-size: 28px;
     line-height: 32px;
-    color: #405F71;
+    color: #1F3541;
 }
 
 
 h2 {
     font-family: "ProximaNova-SBold", sans-serif;
     font-size: 24px;
-    color: #405F71;
+    color: #1F3541;
 }
 
 h3 {
     font-family: "ProximaNova-SBold", sans-serif;
     font-size: 20px;
-    color: #405F71;
+    color: #1F3541;
 }
 
 h4 {
     font-family: "ProximaNova-SBold
     ", sans-serif;
     line-height: 25px;
-    color: #405F71;
+    color: #1F3541;
 }
 
 p {
@@ -359,6 +350,10 @@ footer {
     text-align: left;
 }
 
+.image-shadow {
+    box-shadow: 0px 2px 4px  rgba(0, 0, 0, .10);
+}
+
 @media only screen and (min-width: 900px) {
 
     p {
@@ -389,6 +384,8 @@ footer {
     h3 {
         font-size: 24px;
         line-height: 40px;
+        font-family: "ProximaNova-Bold", sans-serif;
+
     }
 
     h4 {
