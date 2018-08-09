@@ -191,8 +191,8 @@
 	width: 40%;
 	margin-right: auto;
 	
-	margin-top: 2%;
-	margin-bottom: 2%; 
+	margin-top: 8px;
+	margin-bottom: 8px; 
     /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	*/
 }
@@ -434,7 +434,7 @@
 
 	.bio {
 		font-size: 28px;
-		line-height: 40px;
+		line-height: 36px;
 		font-weight: 300;
 		margin-bottom: 0px;
 		margin-top: 0px;
@@ -459,7 +459,18 @@
 
 	.top-margin {
 	margin-top: 18px;
-}
+	}
+	.photo_two{
+		z-index: 0;
+		display: block;
+		overflow: hidden;
+		width: 40%;
+		margin-right: auto;
+		margin-top: 16px;
+		margin-bottom: 32px; 
+	    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		*/
+	}
 
 
 }
