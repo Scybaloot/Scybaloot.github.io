@@ -96,9 +96,9 @@ a.side-nav1 {
 
 .side-nav1 li>a {
     padding:6px 6px;
-
 }
-
+/*Figure out padding
+*/
 
 /* ----------------------------  end image tiles --------- */
 
@@ -272,6 +272,7 @@ div.anchor {
     line-height: 29px;
     color: #405F71;
     font-weight: 500;
+    margin-top: -16px;
 }
 
 .mobile-padding {
@@ -387,7 +388,7 @@ footer {
     h2 {
         font-size: 36px;
         line-height: 36px;
-        margin-top: 16px;
+        margin-top: 80px;
         margin-bottom: 12px;
         font-family: "ProximaNova-SBold", sans-serif;
     }
@@ -396,6 +397,7 @@ footer {
         font-size: 24px;
         line-height: 40px;
         letter-spacing: .4;
+        margin-top: 40px;
         font-family: "ProximaNova-Bold", sans-serif;
 
     }
